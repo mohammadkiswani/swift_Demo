@@ -1,0 +1,3134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D92163272316807300D41C0F /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92163262316807300D41C0F /* BullsEyeTests.swift */; };
+		D92163322316807300D41C0F /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92163312316807300D41C0F /* BullsEyeUITests.swift */; };
+		D98A97C2231E9B7700403AB5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98A97C1231E9B7700403AB5 /* WebKit.framework */; };
+		D98C593E232126BB00B5532D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D98C593D232126BB00B5532D /* Default-568h@2x.png */; };
+		D98C593F232128BA00B5532D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D98C593D232126BB00B5532D /* Default-568h@2x.png */; };
+		D98C5940232128BB00B5532D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D98C593D232126BB00B5532D /* Default-568h@2x.png */; };
+		D98C5DC823212CEF00B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C0C23212CEF00B5532D /* ViewController.swift */; };
+		D98C5DC923212CEF00B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C0D23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DCA23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C0E23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DCB23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C0F23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DCC23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C1123212CEF00B5532D /* Main.storyboard */; };
+		D98C5DCD23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C1523212CEF00B5532D /* ViewController.swift */; };
+		D98C5DCE23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C1623212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DCF23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C1723212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DD023212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C1823212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DD123212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C1A23212CEF00B5532D /* Main.storyboard */; };
+		D98C5DD223212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C1E23212CEF00B5532D /* ViewController.swift */; };
+		D98C5DD323212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C1F23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DD423212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C2023212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DD523212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C2123212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DD623212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C2323212CEF00B5532D /* Main.storyboard */; };
+		D98C5DD723212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C2723212CEF00B5532D /* ViewController.swift */; };
+		D98C5DD823212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C2823212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DD923212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C2923212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DDA23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C2A23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DDB23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C2C23212CEF00B5532D /* Main.storyboard */; };
+		D98C5DDC23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C3023212CEF00B5532D /* ViewController.swift */; };
+		D98C5DDD23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C3123212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DDE23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C3223212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DDF23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C3323212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DE023212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C3523212CEF00B5532D /* Main.storyboard */; };
+		D98C5DE123212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C3923212CEF00B5532D /* ViewController.swift */; };
+		D98C5DE223212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C3A23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DE323212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C3B23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DE423212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C3C23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DE523212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C3E23212CEF00B5532D /* Main.storyboard */; };
+		D98C5DE623212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C4223212CEF00B5532D /* ViewController.swift */; };
+		D98C5DE723212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C4323212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DE823212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C4423212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DE923212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C4523212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DEA23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C4723212CEF00B5532D /* Main.storyboard */; };
+		D98C5DEB23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C4B23212CEF00B5532D /* ViewController.swift */; };
+		D98C5DEC23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C4C23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DED23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C4D23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DEE23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C4E23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DEF23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C5023212CEF00B5532D /* Main.storyboard */; };
+		D98C5DF023212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C5423212CEF00B5532D /* ViewController.swift */; };
+		D98C5DF123212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C5523212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DF223212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C5623212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DF323212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C5723212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DF423212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C5923212CEF00B5532D /* Main.storyboard */; };
+		D98C5DF523212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C5D23212CEF00B5532D /* ViewController.swift */; };
+		D98C5DF623212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C5E23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DF723212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C5F23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DF823212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C6023212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DF923212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C6223212CEF00B5532D /* Main.storyboard */; };
+		D98C5DFA23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C6623212CEF00B5532D /* ViewController.swift */; };
+		D98C5DFB23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C6723212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5DFC23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C6823212CEF00B5532D /* Assets.xcassets */; };
+		D98C5DFD23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C6923212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5DFE23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C6B23212CEF00B5532D /* Main.storyboard */; };
+		D98C5DFF23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C6F23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E0023212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C7023212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E0123212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C7123212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E0223212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C7223212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E0323212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C7423212CEF00B5532D /* Main.storyboard */; };
+		D98C5E0423212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C7823212CEF00B5532D /* ViewController.swift */; };
+		D98C5E0523212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C7923212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E0623212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C7A23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E0723212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C7B23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E0823212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C7D23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E0923212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C8123212CEF00B5532D /* ViewController.swift */; };
+		D98C5E0A23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C8223212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E0B23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C8323212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E0C23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C8423212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E0D23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C8623212CEF00B5532D /* Main.storyboard */; };
+		D98C5E0E23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C8A23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E0F23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C8B23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E1023212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C8C23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E1123212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C8D23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E1223212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C8F23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E1323212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C9323212CEF00B5532D /* ViewController.swift */; };
+		D98C5E1423212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C9423212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E1523212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C9523212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E1623212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C9623212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E1723212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C9823212CEF00B5532D /* Main.storyboard */; };
+		D98C5E1823212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C9C23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E1923212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5C9D23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E1A23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C9E23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E1B23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5C9F23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E1C23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CA123212CEF00B5532D /* Main.storyboard */; };
+		D98C5E1D23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CA523212CEF00B5532D /* ViewController.swift */; };
+		D98C5E1E23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CA623212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E1F23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CA723212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E2023212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CA823212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E2123212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CAA23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E2223212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CAE23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E2323212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CAF23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E2423212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CB023212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E2523212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CB123212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E2623212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CB323212CEF00B5532D /* Main.storyboard */; };
+		D98C5E2723212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CB723212CEF00B5532D /* ViewController.swift */; };
+		D98C5E2823212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CB823212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E2923212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CB923212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E2A23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CBA23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E2B23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CBC23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E2C23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CC023212CEF00B5532D /* ViewController.swift */; };
+		D98C5E2D23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CC123212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E2E23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CC223212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E2F23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CC323212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E3023212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CC523212CEF00B5532D /* Main.storyboard */; };
+		D98C5E3123212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CC923212CEF00B5532D /* ViewController.swift */; };
+		D98C5E3223212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CCA23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E3323212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CCB23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E3423212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CCC23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E3523212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CCE23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E3623212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CD223212CEF00B5532D /* ViewController.swift */; };
+		D98C5E3723212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CD323212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E3823212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CD423212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E3923212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CD523212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E3A23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CD723212CEF00B5532D /* Main.storyboard */; };
+		D98C5E3B23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CDB23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E3C23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CDC23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E3D23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CDD23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E3E23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CDE23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E3F23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CE023212CEF00B5532D /* Main.storyboard */; };
+		D98C5E4023212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CE423212CEF00B5532D /* ViewController.swift */; };
+		D98C5E4123212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CE523212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E4223212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CE623212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E4323212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CE723212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E4423212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CE923212CEF00B5532D /* Main.storyboard */; };
+		D98C5E4523212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CED23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E4623212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CEE23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E4723212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CEF23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E4823212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CF023212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E4923212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CF223212CEF00B5532D /* Main.storyboard */; };
+		D98C5E4A23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CF623212CEF00B5532D /* ViewController.swift */; };
+		D98C5E4B23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CF723212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E4C23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CF823212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E4D23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CF923212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E4E23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5CFB23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E4F23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5CFF23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E5023212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D0023212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E5123212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D0123212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E5223212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D0223212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E5323212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D0423212CEF00B5532D /* Main.storyboard */; };
+		D98C5E5423212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D0823212CEF00B5532D /* ViewController.swift */; };
+		D98C5E5523212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D0923212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E5623212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D0A23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E5723212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D0B23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E5823212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D0D23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E5923212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D1123212CEF00B5532D /* ViewController.swift */; };
+		D98C5E5A23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D1223212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E5B23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D1323212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E5C23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D1423212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E5D23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D1623212CEF00B5532D /* Main.storyboard */; };
+		D98C5E5E23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D1A23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E5F23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D1B23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E6023212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D1C23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E6123212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D1D23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E6223212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D1F23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E6323212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D2323212CEF00B5532D /* ViewController.swift */; };
+		D98C5E6423212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D2423212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E6523212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D2523212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E6623212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D2623212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E6723212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D2823212CEF00B5532D /* Main.storyboard */; };
+		D98C5E6823212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D2C23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E6923212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D2D23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E6A23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D2E23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E6B23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D2F23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E6C23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D3123212CEF00B5532D /* Main.storyboard */; };
+		D98C5E6D23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D3523212CEF00B5532D /* ViewController.swift */; };
+		D98C5E6E23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D3623212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E6F23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D3723212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E7023212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D3823212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E7123212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D3A23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E7223212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D3E23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E7323212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D3F23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E7423212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D4023212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E7523212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D4123212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E7623212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D4323212CEF00B5532D /* Main.storyboard */; };
+		D98C5E7723212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D4723212CEF00B5532D /* ViewController.swift */; };
+		D98C5E7823212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D4823212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E7923212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D4923212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E7A23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D4A23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E7B23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D4C23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E7C23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D5023212CEF00B5532D /* ViewController.swift */; };
+		D98C5E7D23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D5123212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E7E23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D5223212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E7F23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D5323212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E8023212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D5523212CEF00B5532D /* Main.storyboard */; };
+		D98C5E8123212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D5923212CEF00B5532D /* ViewController.swift */; };
+		D98C5E8223212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D5A23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E8323212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D5B23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E8423212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D5C23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E8523212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D5E23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E8623212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D6223212CEF00B5532D /* ViewController.swift */; };
+		D98C5E8723212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D6323212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E8823212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D6423212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E8923212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D6523212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E8A23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D6723212CEF00B5532D /* Main.storyboard */; };
+		D98C5E8B23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D6B23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E8C23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D6C23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E8D23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D6D23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E8E23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D6E23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E8F23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D7023212CEF00B5532D /* Main.storyboard */; };
+		D98C5E9023212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D7423212CEF00B5532D /* ViewController.swift */; };
+		D98C5E9123212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D7523212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E9223212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D7623212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E9323212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D7723212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E9423212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D7923212CEF00B5532D /* Main.storyboard */; };
+		D98C5E9523212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D7D23212CEF00B5532D /* ViewController.swift */; };
+		D98C5E9623212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D7E23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E9723212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D7F23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E9823212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D8023212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E9923212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D8223212CEF00B5532D /* Main.storyboard */; };
+		D98C5E9A23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D8623212CEF00B5532D /* ViewController.swift */; };
+		D98C5E9B23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D8723212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5E9C23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D8823212CEF00B5532D /* Assets.xcassets */; };
+		D98C5E9D23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D8923212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5E9E23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D8B23212CEF00B5532D /* Main.storyboard */; };
+		D98C5E9F23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D8F23212CEF00B5532D /* ViewController.swift */; };
+		D98C5EA023212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D9023212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5EA123212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D9123212CEF00B5532D /* Assets.xcassets */; };
+		D98C5EA223212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D9223212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5EA323212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D9423212CEF00B5532D /* Main.storyboard */; };
+		D98C5EA423212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D9823212CEF00B5532D /* ViewController.swift */; };
+		D98C5EA523212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5D9923212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5EA623212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D9A23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5EA723212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D9B23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5EA823212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5D9D23212CEF00B5532D /* Main.storyboard */; };
+		D98C5EA923212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DA123212CEF00B5532D /* ViewController.swift */; };
+		D98C5EAA23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DA223212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5EAB23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DA323212CEF00B5532D /* Assets.xcassets */; };
+		D98C5EAC23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DA423212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5EAD23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DA623212CEF00B5532D /* Main.storyboard */; };
+		D98C5EAE23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DAA23212CEF00B5532D /* ViewController.swift */; };
+		D98C5EAF23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DAB23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5EB023212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DAC23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5EB123212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DAD23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5EB223212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DAF23212CEF00B5532D /* Main.storyboard */; };
+		D98C5EB323212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DB323212CEF00B5532D /* ViewController.swift */; };
+		D98C5EB423212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DB423212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5EB523212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DB523212CEF00B5532D /* Assets.xcassets */; };
+		D98C5EB623212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DB623212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5EB723212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DB823212CEF00B5532D /* Main.storyboard */; };
+		D98C5EB823212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DBC23212CEF00B5532D /* ViewController.swift */; };
+		D98C5EB923212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DBD23212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5EBA23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DBE23212CEF00B5532D /* Assets.xcassets */; };
+		D98C5EBB23212CF000B5532D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DBF23212CEF00B5532D /* LaunchScreen.storyboard */; };
+		D98C5EBC23212CF000B5532D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DC123212CEF00B5532D /* Main.storyboard */; };
+		D98C5EBD23212CF000B5532D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DC523212CEF00B5532D /* ViewController.swift */; };
+		D98C5EBE23212CF000B5532D /* AbutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C5DC623212CEF00B5532D /* AbutViewController.swift */; };
+		D98C5EBF23212CF000B5532D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C5DC723212CEF00B5532D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D92163232316807300D41C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92163032316807000D41C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D921630A2316807000D41C0F;
+			remoteInfo = BullsEye;
+		};
+		D921632E2316807300D41C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92163032316807000D41C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D921630A2316807000D41C0F;
+			remoteInfo = BullsEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D921630B2316807000D41C0F /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92163222316807300D41C0F /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92163262316807300D41C0F /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		D92163282316807300D41C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D921632D2316807300D41C0F /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92163312316807300D41C0F /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
+		D92163332316807300D41C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98A97C1231E9B7700403AB5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D98C593D232126BB00B5532D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D98C5C0C23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C0D23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C0E23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C1023212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C1223212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C1523212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C1623212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C1723212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C1923212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C1B23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C1E23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C1F23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C2023212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C2223212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C2423212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C2723212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C2823212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C2923212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C2B23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C2D23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C3023212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C3123212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C3223212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C3423212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C3623212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C3923212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C3A23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C3B23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C3D23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C3F23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C4223212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C4323212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C4423212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C4623212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C4823212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C4B23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C4C23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C4D23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C4F23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C5123212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C5423212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C5523212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C5623212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C5823212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C5A23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C5D23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C5E23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C5F23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C6123212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C6323212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C6623212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C6723212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C6823212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C6A23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C6C23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C6F23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C7023212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C7123212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C7323212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C7523212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C7823212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C7923212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C7A23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C7C23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C7E23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C8123212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C8223212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C8323212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C8523212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C8723212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C8A23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C8B23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C8C23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C8E23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C9023212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C9323212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C9423212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C9523212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5C9723212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5C9923212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5C9C23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5C9D23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5C9E23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CA023212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CA223212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CA523212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CA623212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CA723212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CA923212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CAB23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CAE23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CAF23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CB023212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CB223212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CB423212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CB723212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CB823212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CB923212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CBB23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CBD23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CC023212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CC123212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CC223212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CC423212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CC623212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CC923212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CCA23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CCB23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CCD23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CCF23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CD223212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CD323212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CD423212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CD623212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CD823212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CDB23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CDC23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CDD23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CDF23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CE123212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CE423212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CE523212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CE623212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CE823212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CEA23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CED23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CEE23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CEF23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CF123212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CF323212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CF623212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5CF723212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5CF823212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5CFA23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5CFC23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5CFF23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D0023212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D0123212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D0323212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D0523212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D0823212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D0923212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D0A23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D0C23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D0E23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D1123212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D1223212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D1323212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D1523212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D1723212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D1A23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D1B23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D1C23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D1E23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D2023212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D2323212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D2423212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D2523212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D2723212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D2923212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D2C23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D2D23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D2E23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D3023212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D3223212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D3523212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D3623212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D3723212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D3923212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D3B23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D3E23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D3F23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D4023212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D4223212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D4423212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D4723212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D4823212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D4923212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D4B23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D4D23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D5023212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D5123212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D5223212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D5423212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D5623212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D5923212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D5A23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D5B23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D5D23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D5F23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D6223212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D6323212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D6423212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D6623212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D6823212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D6B23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D6C23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D6D23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D6F23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D7123212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D7423212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D7523212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D7623212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D7823212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D7A23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D7D23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D7E23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D7F23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D8123212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D8323212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D8623212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D8723212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D8823212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D8A23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D8C23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D8F23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D9023212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D9123212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D9323212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D9523212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5D9823212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5D9923212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5D9A23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5D9C23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5D9E23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5DA123212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5DA223212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5DA323212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5DA523212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5DA723212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5DAA23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5DAB23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5DAC23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5DAE23212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5DB023212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5DB323212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5DB423212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5DB523212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5DB723212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5DB923212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5DBC23212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5DBD23212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5DBE23212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98C5DC023212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98C5DC223212CEF00B5532D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98C5DC523212CEF00B5532D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C5DC623212CEF00B5532D /* AbutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbutViewController.swift; sourceTree = "<group>"; };
+		D98C5DC723212CEF00B5532D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92163082316807000D41C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98A97C2231E9B7700403AB5 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D921631F2316807300D41C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D921632A2316807300D41C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D92163022316807000D41C0F = {
+			isa = PBXGroup;
+			children = (
+				D98C5C0B23212CEF00B5532D /* BullsEye */,
+				D98C593D232126BB00B5532D /* Default-568h@2x.png */,
+				D92163252316807300D41C0F /* BullsEyeTests */,
+				D92163302316807300D41C0F /* BullsEyeUITests */,
+				D921630C2316807000D41C0F /* Products */,
+				D98A97C0231E9B7600403AB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D921630C2316807000D41C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D921630B2316807000D41C0F /* BullsEye.app */,
+				D92163222316807300D41C0F /* BullsEyeTests.xctest */,
+				D921632D2316807300D41C0F /* BullsEyeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92163252316807300D41C0F /* BullsEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D92163262316807300D41C0F /* BullsEyeTests.swift */,
+				D92163282316807300D41C0F /* Info.plist */,
+			);
+			path = BullsEyeTests;
+			sourceTree = "<group>";
+		};
+		D92163302316807300D41C0F /* BullsEyeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D92163312316807300D41C0F /* BullsEyeUITests.swift */,
+				D92163332316807300D41C0F /* Info.plist */,
+			);
+			path = BullsEyeUITests;
+			sourceTree = "<group>";
+		};
+		D98A97C0231E9B7600403AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D98A97C1231E9B7700403AB5 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98C5C0B23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C0C23212CEF00B5532D /* ViewController.swift */,
+				D98C5C0D23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C0E23212CEF00B5532D /* Assets.xcassets */,
+				D98C5C0F23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C1123212CEF00B5532D /* Main.storyboard */,
+				D98C5C1323212CEF00B5532D /* BullsEye */,
+			);
+			name = BullsEye;
+			path = BullsEye/BullsEye/BullsEye/BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C1323212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C1423212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C1423212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C1523212CEF00B5532D /* ViewController.swift */,
+				D98C5C1623212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C1723212CEF00B5532D /* Assets.xcassets */,
+				D98C5C1823212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C1A23212CEF00B5532D /* Main.storyboard */,
+				D98C5C1C23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C1C23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C1D23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C1D23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C1E23212CEF00B5532D /* ViewController.swift */,
+				D98C5C1F23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C2023212CEF00B5532D /* Assets.xcassets */,
+				D98C5C2123212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C2323212CEF00B5532D /* Main.storyboard */,
+				D98C5C2523212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C2523212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C2623212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C2623212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C2723212CEF00B5532D /* ViewController.swift */,
+				D98C5C2823212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C2923212CEF00B5532D /* Assets.xcassets */,
+				D98C5C2A23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C2C23212CEF00B5532D /* Main.storyboard */,
+				D98C5C2E23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C2E23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C2F23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C2F23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C3023212CEF00B5532D /* ViewController.swift */,
+				D98C5C3123212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C3223212CEF00B5532D /* Assets.xcassets */,
+				D98C5C3323212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C3523212CEF00B5532D /* Main.storyboard */,
+				D98C5C3723212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C3723212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C3823212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C3823212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C3923212CEF00B5532D /* ViewController.swift */,
+				D98C5C3A23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C3B23212CEF00B5532D /* Assets.xcassets */,
+				D98C5C3C23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C3E23212CEF00B5532D /* Main.storyboard */,
+				D98C5C4023212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C4023212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C4123212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C4123212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C4223212CEF00B5532D /* ViewController.swift */,
+				D98C5C4323212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C4423212CEF00B5532D /* Assets.xcassets */,
+				D98C5C4523212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C4723212CEF00B5532D /* Main.storyboard */,
+				D98C5C4923212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C4923212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C4A23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C4A23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C4B23212CEF00B5532D /* ViewController.swift */,
+				D98C5C4C23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C4D23212CEF00B5532D /* Assets.xcassets */,
+				D98C5C4E23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C5023212CEF00B5532D /* Main.storyboard */,
+				D98C5C5223212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C5223212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C5323212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C5323212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C5423212CEF00B5532D /* ViewController.swift */,
+				D98C5C5523212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C5623212CEF00B5532D /* Assets.xcassets */,
+				D98C5C5723212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C5923212CEF00B5532D /* Main.storyboard */,
+				D98C5C5B23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C5B23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C5C23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C5C23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C5D23212CEF00B5532D /* ViewController.swift */,
+				D98C5C5E23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C5F23212CEF00B5532D /* Assets.xcassets */,
+				D98C5C6023212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C6223212CEF00B5532D /* Main.storyboard */,
+				D98C5C6423212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C6423212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C6523212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C6523212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C6623212CEF00B5532D /* ViewController.swift */,
+				D98C5C6723212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C6823212CEF00B5532D /* Assets.xcassets */,
+				D98C5C6923212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C6B23212CEF00B5532D /* Main.storyboard */,
+				D98C5C6D23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C6D23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C6E23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C6E23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C6F23212CEF00B5532D /* ViewController.swift */,
+				D98C5C7023212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C7123212CEF00B5532D /* Assets.xcassets */,
+				D98C5C7223212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C7423212CEF00B5532D /* Main.storyboard */,
+				D98C5C7623212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C7623212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C7723212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C7723212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C7823212CEF00B5532D /* ViewController.swift */,
+				D98C5C7923212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C7A23212CEF00B5532D /* Assets.xcassets */,
+				D98C5C7B23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C7D23212CEF00B5532D /* Main.storyboard */,
+				D98C5C7F23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C7F23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C8023212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C8023212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C8123212CEF00B5532D /* ViewController.swift */,
+				D98C5C8223212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C8323212CEF00B5532D /* Assets.xcassets */,
+				D98C5C8423212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C8623212CEF00B5532D /* Main.storyboard */,
+				D98C5C8823212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C8823212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C8923212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C8923212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C8A23212CEF00B5532D /* ViewController.swift */,
+				D98C5C8B23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C8C23212CEF00B5532D /* Assets.xcassets */,
+				D98C5C8D23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C8F23212CEF00B5532D /* Main.storyboard */,
+				D98C5C9123212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C9123212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C9223212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C9223212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C9323212CEF00B5532D /* ViewController.swift */,
+				D98C5C9423212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C9523212CEF00B5532D /* Assets.xcassets */,
+				D98C5C9623212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5C9823212CEF00B5532D /* Main.storyboard */,
+				D98C5C9A23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C9A23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C9B23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5C9B23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5C9C23212CEF00B5532D /* ViewController.swift */,
+				D98C5C9D23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5C9E23212CEF00B5532D /* Assets.xcassets */,
+				D98C5C9F23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CA123212CEF00B5532D /* Main.storyboard */,
+				D98C5CA323212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CA323212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CA423212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CA423212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CA523212CEF00B5532D /* ViewController.swift */,
+				D98C5CA623212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CA723212CEF00B5532D /* Assets.xcassets */,
+				D98C5CA823212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CAA23212CEF00B5532D /* Main.storyboard */,
+				D98C5CAC23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CAC23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CAD23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CAD23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CAE23212CEF00B5532D /* ViewController.swift */,
+				D98C5CAF23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CB023212CEF00B5532D /* Assets.xcassets */,
+				D98C5CB123212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CB323212CEF00B5532D /* Main.storyboard */,
+				D98C5CB523212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CB523212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CB623212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CB623212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CB723212CEF00B5532D /* ViewController.swift */,
+				D98C5CB823212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CB923212CEF00B5532D /* Assets.xcassets */,
+				D98C5CBA23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CBC23212CEF00B5532D /* Main.storyboard */,
+				D98C5CBE23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CBE23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CBF23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CBF23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CC023212CEF00B5532D /* ViewController.swift */,
+				D98C5CC123212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CC223212CEF00B5532D /* Assets.xcassets */,
+				D98C5CC323212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CC523212CEF00B5532D /* Main.storyboard */,
+				D98C5CC723212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CC723212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CC823212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CC823212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CC923212CEF00B5532D /* ViewController.swift */,
+				D98C5CCA23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CCB23212CEF00B5532D /* Assets.xcassets */,
+				D98C5CCC23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CCE23212CEF00B5532D /* Main.storyboard */,
+				D98C5CD023212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CD023212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CD123212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CD123212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CD223212CEF00B5532D /* ViewController.swift */,
+				D98C5CD323212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CD423212CEF00B5532D /* Assets.xcassets */,
+				D98C5CD523212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CD723212CEF00B5532D /* Main.storyboard */,
+				D98C5CD923212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CD923212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CDA23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CDA23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CDB23212CEF00B5532D /* ViewController.swift */,
+				D98C5CDC23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CDD23212CEF00B5532D /* Assets.xcassets */,
+				D98C5CDE23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CE023212CEF00B5532D /* Main.storyboard */,
+				D98C5CE223212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CE223212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CE323212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CE323212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CE423212CEF00B5532D /* ViewController.swift */,
+				D98C5CE523212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CE623212CEF00B5532D /* Assets.xcassets */,
+				D98C5CE723212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CE923212CEF00B5532D /* Main.storyboard */,
+				D98C5CEB23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CEB23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CEC23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CEC23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CED23212CEF00B5532D /* ViewController.swift */,
+				D98C5CEE23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CEF23212CEF00B5532D /* Assets.xcassets */,
+				D98C5CF023212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CF223212CEF00B5532D /* Main.storyboard */,
+				D98C5CF423212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CF423212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CF523212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CF523212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CF623212CEF00B5532D /* ViewController.swift */,
+				D98C5CF723212CEF00B5532D /* AbutViewController.swift */,
+				D98C5CF823212CEF00B5532D /* Assets.xcassets */,
+				D98C5CF923212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5CFB23212CEF00B5532D /* Main.storyboard */,
+				D98C5CFD23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CFD23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CFE23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5CFE23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5CFF23212CEF00B5532D /* ViewController.swift */,
+				D98C5D0023212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D0123212CEF00B5532D /* Assets.xcassets */,
+				D98C5D0223212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D0423212CEF00B5532D /* Main.storyboard */,
+				D98C5D0623212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D0623212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D0723212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D0723212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D0823212CEF00B5532D /* ViewController.swift */,
+				D98C5D0923212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D0A23212CEF00B5532D /* Assets.xcassets */,
+				D98C5D0B23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D0D23212CEF00B5532D /* Main.storyboard */,
+				D98C5D0F23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D0F23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D1023212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D1023212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D1123212CEF00B5532D /* ViewController.swift */,
+				D98C5D1223212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D1323212CEF00B5532D /* Assets.xcassets */,
+				D98C5D1423212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D1623212CEF00B5532D /* Main.storyboard */,
+				D98C5D1823212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D1823212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D1923212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D1923212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D1A23212CEF00B5532D /* ViewController.swift */,
+				D98C5D1B23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D1C23212CEF00B5532D /* Assets.xcassets */,
+				D98C5D1D23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D1F23212CEF00B5532D /* Main.storyboard */,
+				D98C5D2123212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D2123212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D2223212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D2223212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D2323212CEF00B5532D /* ViewController.swift */,
+				D98C5D2423212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D2523212CEF00B5532D /* Assets.xcassets */,
+				D98C5D2623212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D2823212CEF00B5532D /* Main.storyboard */,
+				D98C5D2A23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D2A23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D2B23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D2B23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D2C23212CEF00B5532D /* ViewController.swift */,
+				D98C5D2D23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D2E23212CEF00B5532D /* Assets.xcassets */,
+				D98C5D2F23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D3123212CEF00B5532D /* Main.storyboard */,
+				D98C5D3323212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D3323212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D3423212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D3423212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D3523212CEF00B5532D /* ViewController.swift */,
+				D98C5D3623212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D3723212CEF00B5532D /* Assets.xcassets */,
+				D98C5D3823212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D3A23212CEF00B5532D /* Main.storyboard */,
+				D98C5D3C23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D3C23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D3D23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D3D23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D3E23212CEF00B5532D /* ViewController.swift */,
+				D98C5D3F23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D4023212CEF00B5532D /* Assets.xcassets */,
+				D98C5D4123212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D4323212CEF00B5532D /* Main.storyboard */,
+				D98C5D4523212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D4523212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D4623212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D4623212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D4723212CEF00B5532D /* ViewController.swift */,
+				D98C5D4823212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D4923212CEF00B5532D /* Assets.xcassets */,
+				D98C5D4A23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D4C23212CEF00B5532D /* Main.storyboard */,
+				D98C5D4E23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D4E23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D4F23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D4F23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D5023212CEF00B5532D /* ViewController.swift */,
+				D98C5D5123212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D5223212CEF00B5532D /* Assets.xcassets */,
+				D98C5D5323212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D5523212CEF00B5532D /* Main.storyboard */,
+				D98C5D5723212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D5723212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D5823212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D5823212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D5923212CEF00B5532D /* ViewController.swift */,
+				D98C5D5A23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D5B23212CEF00B5532D /* Assets.xcassets */,
+				D98C5D5C23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D5E23212CEF00B5532D /* Main.storyboard */,
+				D98C5D6023212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D6023212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D6123212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D6123212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D6223212CEF00B5532D /* ViewController.swift */,
+				D98C5D6323212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D6423212CEF00B5532D /* Assets.xcassets */,
+				D98C5D6523212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D6723212CEF00B5532D /* Main.storyboard */,
+				D98C5D6923212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D6923212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D6A23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D6A23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D6B23212CEF00B5532D /* ViewController.swift */,
+				D98C5D6C23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D6D23212CEF00B5532D /* Assets.xcassets */,
+				D98C5D6E23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D7023212CEF00B5532D /* Main.storyboard */,
+				D98C5D7223212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D7223212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D7323212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D7323212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D7423212CEF00B5532D /* ViewController.swift */,
+				D98C5D7523212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D7623212CEF00B5532D /* Assets.xcassets */,
+				D98C5D7723212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D7923212CEF00B5532D /* Main.storyboard */,
+				D98C5D7B23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D7B23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D7C23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D7C23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D7D23212CEF00B5532D /* ViewController.swift */,
+				D98C5D7E23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D7F23212CEF00B5532D /* Assets.xcassets */,
+				D98C5D8023212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D8223212CEF00B5532D /* Main.storyboard */,
+				D98C5D8423212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D8423212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D8523212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D8523212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D8623212CEF00B5532D /* ViewController.swift */,
+				D98C5D8723212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D8823212CEF00B5532D /* Assets.xcassets */,
+				D98C5D8923212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D8B23212CEF00B5532D /* Main.storyboard */,
+				D98C5D8D23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D8D23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D8E23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D8E23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D8F23212CEF00B5532D /* ViewController.swift */,
+				D98C5D9023212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D9123212CEF00B5532D /* Assets.xcassets */,
+				D98C5D9223212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D9423212CEF00B5532D /* Main.storyboard */,
+				D98C5D9623212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D9623212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D9723212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D9723212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5D9823212CEF00B5532D /* ViewController.swift */,
+				D98C5D9923212CEF00B5532D /* AbutViewController.swift */,
+				D98C5D9A23212CEF00B5532D /* Assets.xcassets */,
+				D98C5D9B23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5D9D23212CEF00B5532D /* Main.storyboard */,
+				D98C5D9F23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5D9F23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DA023212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DA023212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DA123212CEF00B5532D /* ViewController.swift */,
+				D98C5DA223212CEF00B5532D /* AbutViewController.swift */,
+				D98C5DA323212CEF00B5532D /* Assets.xcassets */,
+				D98C5DA423212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5DA623212CEF00B5532D /* Main.storyboard */,
+				D98C5DA823212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DA823212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DA923212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DA923212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DAA23212CEF00B5532D /* ViewController.swift */,
+				D98C5DAB23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5DAC23212CEF00B5532D /* Assets.xcassets */,
+				D98C5DAD23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5DAF23212CEF00B5532D /* Main.storyboard */,
+				D98C5DB123212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DB123212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DB223212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DB223212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DB323212CEF00B5532D /* ViewController.swift */,
+				D98C5DB423212CEF00B5532D /* AbutViewController.swift */,
+				D98C5DB523212CEF00B5532D /* Assets.xcassets */,
+				D98C5DB623212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5DB823212CEF00B5532D /* Main.storyboard */,
+				D98C5DBA23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DBA23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DBB23212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DBB23212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DBC23212CEF00B5532D /* ViewController.swift */,
+				D98C5DBD23212CEF00B5532D /* AbutViewController.swift */,
+				D98C5DBE23212CEF00B5532D /* Assets.xcassets */,
+				D98C5DBF23212CEF00B5532D /* LaunchScreen.storyboard */,
+				D98C5DC123212CEF00B5532D /* Main.storyboard */,
+				D98C5DC323212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DC323212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DC423212CEF00B5532D /* BullsEye */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D98C5DC423212CEF00B5532D /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				D98C5DC523212CEF00B5532D /* ViewController.swift */,
+				D98C5DC623212CEF00B5532D /* AbutViewController.swift */,
+				D98C5DC723212CEF00B5532D /* Assets.xcassets */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D921630A2316807000D41C0F /* BullsEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92163362316807300D41C0F /* Build configuration list for PBXNativeTarget "BullsEye" */;
+			buildPhases = (
+				D92163072316807000D41C0F /* Sources */,
+				D92163082316807000D41C0F /* Frameworks */,
+				D92163092316807000D41C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BullsEye;
+			productName = BullsEye;
+			productReference = D921630B2316807000D41C0F /* BullsEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D92163212316807300D41C0F /* BullsEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92163392316807300D41C0F /* Build configuration list for PBXNativeTarget "BullsEyeTests" */;
+			buildPhases = (
+				D921631E2316807300D41C0F /* Sources */,
+				D921631F2316807300D41C0F /* Frameworks */,
+				D92163202316807300D41C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92163242316807300D41C0F /* PBXTargetDependency */,
+			);
+			name = BullsEyeTests;
+			productName = BullsEyeTests;
+			productReference = D92163222316807300D41C0F /* BullsEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D921632C2316807300D41C0F /* BullsEyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D921633C2316807300D41C0F /* Build configuration list for PBXNativeTarget "BullsEyeUITests" */;
+			buildPhases = (
+				D92163292316807300D41C0F /* Sources */,
+				D921632A2316807300D41C0F /* Frameworks */,
+				D921632B2316807300D41C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D921632F2316807300D41C0F /* PBXTargetDependency */,
+			);
+			name = BullsEyeUITests;
+			productName = BullsEyeUITests;
+			productReference = D921632D2316807300D41C0F /* BullsEyeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92163032316807000D41C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Mohamed;
+				TargetAttributes = {
+					D921630A2316807000D41C0F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D92163212316807300D41C0F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D921630A2316807000D41C0F;
+					};
+					D921632C2316807300D41C0F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D921630A2316807000D41C0F;
+					};
+				};
+			};
+			buildConfigurationList = D92163062316807000D41C0F /* Build configuration list for PBXProject "BullsEye" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D92163022316807000D41C0F;
+			productRefGroup = D921630C2316807000D41C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D921630A2316807000D41C0F /* BullsEye */,
+				D92163212316807300D41C0F /* BullsEyeTests */,
+				D921632C2316807300D41C0F /* BullsEyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92163092316807000D41C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C5E4923212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DF323212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DD523212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E1023212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DEF23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DF823212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E7423212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E5323212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E9923212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5EB623212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5EAC23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5EA223212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E5D23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E0123212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E6B23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E6623212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E3F23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E3823212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E3D23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E2523212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E3E23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DD623212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E7523212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E6223212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E3923212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E4C23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E6723212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E5623212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5EBF23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E7E23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E8323212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E9223212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E8823212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E1C23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E9C23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E5723212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E3423212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E5123212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E1723212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E0323212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E8E23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E3023212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DD923212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E1623212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5EBC23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DDF23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E5823212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DED23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E0223212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E0823212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E5B23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E3A23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E4D23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E6F23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5EBA23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E2123212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E3323212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E2F23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DF423212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E0D23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E4223212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DFD23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5EBB23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DF223212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E8A23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E4823212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E4323212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DD123212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E1123212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5EAB23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E9323212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E6C23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E2E23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E6123212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5EAD23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DEA23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DDE23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E7923212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E6023212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5EB023212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E8423212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E4E23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5EB223212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DE323212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E1B23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E1A23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E2023212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DEE23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DCB23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E8923212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5EB123212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E8D23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E1523212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5EA623212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E4723212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E2A23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E9823212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DCA23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E7B23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E7623212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DE423212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E1F23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5EA823212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E0623212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E5C23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E8523212CF000B5532D /* Main.storyboard in Resources */,
+				D98C593E232126BB00B5532D /* Default-568h@2x.png in Resources */,
+				D98C5E2923212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E9423212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E7023212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E0B23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E7A23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DDB23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E6A23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5EA123212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5EB723212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E4423212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DD023212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E9D23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E9723212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DE023212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5EA723212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DFE23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E7123212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E8023212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DE823212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DCC23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5EA323212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E1223212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5EB523212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E9E23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E6523212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DDA23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E2423212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5E2B23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DD423212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DE923212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E0723212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DF723212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DE523212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E2623212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5DF923212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E7F23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E8F23212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E3523212CF000B5532D /* Main.storyboard in Resources */,
+				D98C5E0C23212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5E5223212CF000B5532D /* LaunchScreen.storyboard in Resources */,
+				D98C5DFC23212CF000B5532D /* Assets.xcassets in Resources */,
+				D98C5DCF23212CF000B5532D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92163202316807300D41C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C593F232128BA00B5532D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D921632B2316807300D41C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C5940232128BB00B5532D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92163072316807000D41C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C5E8123212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E2323212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E3123212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E0423212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E8623212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DEB23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E4023212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DF523212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E6D23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EAE23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DD223212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EAA23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E7C23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DCD23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E9123212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E4A23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DE223212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E8723212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E4523212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E5923212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EB323212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DD323212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E7823212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E2C23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E3723212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DDC23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E8B23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E4F23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E4623212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E9623212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E0F23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E1323212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E3C23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E7D23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DFF23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DE123212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DC923212CEF00B5532D /* AbutViewController.swift in Sources */,
+				D98C5E5F23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DD723212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E1E23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5EB823212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DF023212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EA023212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E1823212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EAF23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E7223212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E6E23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DE623212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EBD23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E2223212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E8223212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E0523212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E2723212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DCE23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E4123212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E4B23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E0023212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E9023212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DD823212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E6923212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E2D23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E6323212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E5A23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E9B23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5EB423212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DDD23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DF123212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5EA923212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E5423212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EB923212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E3B23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E9A23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E3623212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E0E23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DFB23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E1D23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E0923212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5EA523212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5EBE23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DE723212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DEC23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DFA23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5DF623212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E3223212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E1923212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E0A23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5EA423212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E7723212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E1423212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E9523212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E5E23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E9F23212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E2823212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E6823212CF000B5532D /* ViewController.swift in Sources */,
+				D98C5E5023212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E5523212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E6423212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E7323212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5E8C23212CF000B5532D /* AbutViewController.swift in Sources */,
+				D98C5DC823212CEF00B5532D /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D921631E2316807300D41C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92163272316807300D41C0F /* BullsEyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92163292316807300D41C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92163322316807300D41C0F /* BullsEyeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D92163242316807300D41C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D921630A2316807000D41C0F /* BullsEye */;
+			targetProxy = D92163232316807300D41C0F /* PBXContainerItemProxy */;
+		};
+		D921632F2316807300D41C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D921630A2316807000D41C0F /* BullsEye */;
+			targetProxy = D921632E2316807300D41C0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D98C5C0F23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C1023212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C1123212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C1223212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C1823212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C1923212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C1A23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C1B23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C2123212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C2223212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C2323212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C2423212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C2A23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C2B23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C2C23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C2D23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C3323212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C3423212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C3523212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C3623212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C3C23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C3D23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C3E23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C3F23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C4523212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C4623212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C4723212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C4823212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C4E23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C4F23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C5023212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C5123212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C5723212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C5823212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C5923212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C5A23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C6023212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C6123212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C6223212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C6323212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C6923212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C6A23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C6B23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C6C23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C7223212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C7323212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C7423212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C7523212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C7B23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C7C23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C7D23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C7E23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C8423212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C8523212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C8623212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C8723212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C8D23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C8E23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C8F23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C9023212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C9623212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C9723212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C9823212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5C9923212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5C9F23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CA023212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CA123212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CA223212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CA823212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CA923212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CAA23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CAB23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CB123212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CB223212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CB323212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CB423212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CBA23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CBB23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CBC23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CBD23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CC323212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CC423212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CC523212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CC623212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CCC23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CCD23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CCE23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CCF23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CD523212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CD623212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CD723212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CD823212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CDE23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CDF23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CE023212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CE123212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CE723212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CE823212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CE923212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CEA23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CF023212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CF123212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CF223212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CF323212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CF923212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CFA23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5CFB23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5CFC23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D0223212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D0323212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D0423212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D0523212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D0B23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D0C23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D0D23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D0E23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D1423212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D1523212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D1623212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D1723212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D1D23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D1E23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D1F23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D2023212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D2623212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D2723212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D2823212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D2923212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D2F23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D3023212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D3123212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D3223212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D3823212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D3923212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D3A23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D3B23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D4123212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D4223212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D4323212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D4423212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D4A23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D4B23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D4C23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D4D23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D5323212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D5423212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D5523212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D5623212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D5C23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D5D23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D5E23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D5F23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D6523212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D6623212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D6723212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D6823212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D6E23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D6F23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D7023212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D7123212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D7723212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D7823212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D7923212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D7A23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D8023212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D8123212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D8223212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D8323212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D8923212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D8A23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D8B23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D8C23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D9223212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D9323212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D9423212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D9523212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D9B23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D9C23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5D9D23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5D9E23212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DA423212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DA523212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DA623212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DA723212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DAD23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DAE23212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DAF23212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DB023212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DB623212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DB723212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DB823212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DB923212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DBF23212CEF00B5532D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DC023212CEF00B5532D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98C5DC123212CEF00B5532D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98C5DC223212CEF00B5532D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D92163342316807300D41C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D92163352316807300D41C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92163372316807300D41C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohammad.BullsEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92163382316807300D41C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohammad.BullsEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D921633A2316807300D41C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BullsEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohammad.BullsEyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
+			};
+			name = Debug;
+		};
+		D921633B2316807300D41C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BullsEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohammad.BullsEyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
+			};
+			name = Release;
+		};
+		D921633D2316807300D41C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BullsEyeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohammad.BullsEyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BullsEye;
+			};
+			name = Debug;
+		};
+		D921633E2316807300D41C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BullsEyeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohammad.BullsEyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BullsEye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92163062316807000D41C0F /* Build configuration list for PBXProject "BullsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92163342316807300D41C0F /* Debug */,
+				D92163352316807300D41C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92163362316807300D41C0F /* Build configuration list for PBXNativeTarget "BullsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92163372316807300D41C0F /* Debug */,
+				D92163382316807300D41C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92163392316807300D41C0F /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D921633A2316807300D41C0F /* Debug */,
+				D921633B2316807300D41C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D921633C2316807300D41C0F /* Build configuration list for PBXNativeTarget "BullsEyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D921633D2316807300D41C0F /* Debug */,
+				D921633E2316807300D41C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D92163032316807000D41C0F /* Project object */;
+}
